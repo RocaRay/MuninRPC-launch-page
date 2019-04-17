@@ -1,0 +1,36 @@
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans'); */
+
+.usage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* color: #2699FB; */
+}
+
+.about {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* border: 1px solid black; */
+}
+
+.about > p {
+  margin: 0px;
+}
+
+.usage > h1 {
+  margin-bottom: 0px;
+}
+
+.usage > img {
+  height: 400px;
+  border: 1px solid black;
+  margin-bottom: 8px;
+}
+
+h1 {
+  margin-top: 8px;
+}

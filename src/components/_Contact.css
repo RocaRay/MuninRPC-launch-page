@@ -1,0 +1,40 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  /* border: 1px solid blue; */
+}
+
+.contact > p {
+  margin-top: 3rem;
+}
+
+.repo-link {
+  font-size: 1.5rem;
+}
+
+.contact-box-container {
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
+  justify-content: space-around;
+  /* border: 1px solid purple; */
+  margin: 8px;
+}
+.contact-box {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  /* border: 1px solid red; */
+  font-size: 1.3rem;
+}
+
+.contact-box > a {
+  font-size: 0.8rem;
+}
+
+.contact-box > h5 {
+  margin-bottom: 3px;
+}

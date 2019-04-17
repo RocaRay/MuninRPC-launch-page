@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Munin RPC Launch Page',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

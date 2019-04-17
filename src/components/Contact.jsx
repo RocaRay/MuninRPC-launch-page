@@ -8,7 +8,7 @@ const Contact = (props) => {
 
       <p>Visit our GitHub repo. Contributors welcome.</p>
       <a className="repo-link" href="https://github.com/muninrpc/muninrpc">GitHub Repo</a>
-      <img src={githublogo} />
+      <img src={githublogo} alt="github" />
 
       <h1>Contributors</h1>
 

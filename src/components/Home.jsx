@@ -9,14 +9,14 @@ import electron from "../images/electronlogo.png"
 const Home = (props) => {
   return (
     <div className="home">
-      <img src={raven} />
+      <img src={raven} alt="raven" />
       <h1>MuninRPC</h1>
       <p>A testing tool for gRPC</p>
-      <a href=""><img src={mac}/>Download for Mac</a>
-      <a href=""><img src={windows}/>Download for Windows</a>
-      <a href=""><img src={linux}/>Download for Linux</a>
+      <a href="#"><img src={mac} alt="mac"/>Download for Mac</a>
+      <a href="#"><img src={windows} alt="windows"/>Download for Windows</a>
+      <a href="#"><img src={linux} alt="linux"/>Download for Linux</a>
       <p className="footer-text">Powered by Electron</p>
-      <img className="electron-logo" src={electron}/>
+      <img className="electron-logo" src={electron} alt="electron"/>
     </div>
   )
 }

@@ -77,7 +77,7 @@
 .gitblurb {
   margin-top: 200px;
   background: white;
-  width: 100%;
+  width: auto;
   text-align: center;
   opacity: 0.8;
   padding: 10px 0;
@@ -128,7 +128,7 @@
 }
 
 .home > .contrib-box {
-  margin-bottom: 200px;
+  margin-bottom: 800px;
 }
 
 .home > .contrib-box > div > a {

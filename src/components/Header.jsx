@@ -9,7 +9,7 @@ const Header = props => {
         <img className="raven" src={raven} alt="raven" />
       </div>
       <div className="header-right">
-        <div
+        {/* <div
           className={props.mode === 'Home' ? 'active' : ''}
           onClick={() => props.setMode('Home')}
         >
@@ -32,7 +32,7 @@ const Header = props => {
           onClick={() => props.setMode('Contact')}
         >
           Contact Us
-        </div>
+        </div> */}
       </div>
     </div>
   )

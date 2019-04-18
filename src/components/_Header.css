@@ -67,6 +67,7 @@ table {
   align-items: center;
   height: 3rem;
   padding: 10px 0;
+  z-index: 99;
 }
 
 .header > div {

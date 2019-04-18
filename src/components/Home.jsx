@@ -1,7 +1,7 @@
 import React from 'react'
 import './_Home.css'
 import mac from '../assets/images/maclogo.png'
-import linux from '../assets/images/linuxlogo.jpeg'
+import linux from '../assets/images/linuxlogo.png'
 import windows from '../assets/images/windowslogo.png'
 import raven from '../assets/images/raven.png'
 import electron from '../assets/images/electronlogo.png'
